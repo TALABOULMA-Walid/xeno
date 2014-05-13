@@ -1,9 +1,3 @@
-// ---------------------------------------------------------------------
-// exemple-user-rtdm-write.c
-// Fichier d'exemple du livre "Solutions Temps-Reel sous Linux"
-// (C) 2012 - Christophe BLAESS
-// http://christophe.blaess.fr
-// ---------------------------------------------------------------------
 
 #include <fcntl.h>
 #include <stdlib.h>
