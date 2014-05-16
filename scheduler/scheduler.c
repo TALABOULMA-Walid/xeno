@@ -62,7 +62,7 @@ void task_vide(void* unsued)	/// free time filler task
   int compteur = 0;
   rt_printf("[%lld]Début task_vide\n", TIMER_READ);
   while ( compteur++ < DURATION ){}
-  rt_printf("[%lld]Fin task_vide\n[%lld]Hyperperiod : %d\n", TIMER_READ,TIMER_READ,hp);
+  rt_printf("[%lld]Fin task_vide\n[%lld]Hyperperiod : %d\n", TIMER_READ,TIMER_READ,hp++);
 }
 /// *********************SCHEDULER******************** ///
 ELEMENT_TAB T[]={{"task2",2,2,1,task2},{"task1",1,2,1,task1},{"task2",2,2,0,task2},{"task3",3,2,1,task3},{"task1",1,2,1,task1},{"task_vide",4,2,1,task_vide}};
