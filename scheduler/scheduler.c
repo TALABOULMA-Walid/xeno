@@ -59,9 +59,9 @@ void task3(void* unsued)	/// (0,2,12,12)
 void task_vide(void* unsued)	/// free time filler task
 {
   int compteur = 0;
-  rt_printf("[%lld]Début task_vide 1\n", TIMER_READ);
+  rt_printf("[%lld]Début task_vide\n", TIMER_READ);
   while ( compteur++ < DURATION ){}
-  rt_printf("[%lld]Fin task_vide 1\n", TIMER_READ);
+  rt_printf("[%lld]Fin task_vide\n[%lld]Hyperperiod : %d\n", TIMER_READ,TIMER_READ,hp);
 }
 /// *********************SCHEDULER******************** ///
 
